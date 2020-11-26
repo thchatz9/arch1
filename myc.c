@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main(){
-
-static int sum=0 , a=0,b=0; //mia apli prosthesi akeraiwn mesa se loop me diaforetiki timi toy a,b
+int sum=0,a=0,b=0; //mia apli prosthesi akeraiwn mesa se loop me diaforetiki timi toy a,b
 for (int i=0;i<=100;i++){
 	a=a+i;
 	b=b+2*i;
